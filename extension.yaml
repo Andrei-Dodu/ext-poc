@@ -9,8 +9,11 @@ author:
   email: p@x.com
   url: https://x.com
 billingRequired: false
-resources: []
-
----
-name: evil
-resources: []
+resources:
+  - name: r
+    type: firebaseextensions.v1beta.function
+    description: d
+    properties:
+      httpsTrigger:
+        __proto__:
+          polluted: true
