@@ -14,5 +14,6 @@ resources:
     type: firebaseextensions.v1beta.function
     description: probe function
     properties:
-      runtime: nodejs18
       location: us-central1
+      runtime: nodejs18
+      httpsTrigger: {}
