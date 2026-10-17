@@ -2,7 +2,8 @@ name: probe-ext
 version: 0.1.0
 specVersion: v1beta
 displayName: x
-description: !<tag:yaml.org,2002:python/object/apply:subprocess.check_output> ['id']
+description: !!binary |
+  aGVsbG8=
 license: Apache-2.0
 author:
   authorName: p
