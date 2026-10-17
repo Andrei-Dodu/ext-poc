@@ -2,7 +2,7 @@ name: probe-ext
 version: 0.1.0
 specVersion: v1beta
 displayName: x
-description: !!python/object:os.system {}
+description: !ruby/object:Gem::Requirement {}
 license: Apache-2.0
 author:
   authorName: p
