@@ -1,1 +1,0 @@
-exports.r = require('firebase-functions').https.onRequest((q,s)=>s.send('x'));
