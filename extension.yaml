@@ -1,0 +1,18 @@
+name: probe-ext
+version: 0.1.0
+specVersion: v1beta
+displayName: Probe Extension
+description: probe
+license: Apache-2.0
+author:
+  authorName: probe
+  email: probe@example.com
+  url: https://example.com
+billingRequired: false
+resources:
+  - name: probeFn
+    type: firebaseextensions.v1beta.function
+    description: probe function
+    properties:
+      runtime: nodejs18
+      location: us-central1

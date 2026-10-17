@@ -1,0 +1,1 @@
+{"name":"probe-fn","version":"1.0.0","main":"index.js","dependencies":{"firebase-functions":"^4.0.0"}}
